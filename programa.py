@@ -12,8 +12,15 @@ def somar(a, b):
     return a + b
 
 
+def subtrair(a, b):
+    return a - b
+
+
 apresentar()
 apresentar_curso()
 
 resultado = somar(10, 20)
 print(f"Resultado da soma: {resultado}")
+
+resultado_subtracao = subtrair(30, 10)
+print(f"Resultado da subtração: {resultado_subtracao}")
